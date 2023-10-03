@@ -1,0 +1,301 @@
+/*! ------Reseteos y aplicaciones a todos los archivos ------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap"); */
+
+@font-face {
+    font-family: "fuentebaq";
+    src: url("../fuente/LANE_A.woff") format("woff");
+}
+
+h2, h3, h4 {
+    font-family: "fuentebaq", sans-serif; /* Aquí solo se necesita "fuentebaq" */
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h4 {
+    font-size: 36pt;
+}
+
+p{
+    font-family:sans-serif;
+
+}
+/*! ------ Header --------*/
+
+.hero {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.hero div img {
+    width: 100%;
+    height: auto;
+}
+
+/*! ------ Barranquilla --------*/
+
+.barranquilla {
+    position: relative;
+}
+
+.barranquilla .carousel-inner {
+    background-size: cover;
+    background-position: center;
+}
+
+.textoBarranquilla {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 400px;
+}
+
+/*! ------ Historia --------*/
+
+.historia {
+    position: relative;
+}
+
+.textoHistoria {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    text-align: right;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 400px;
+}
+
+/*! ------ baq --------*/
+
+.baq {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.div1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+}
+
+.div1 p {
+    width: 70%;
+}
+
+.diviconos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.diviconos div {
+    text-align: center;
+    padding: 45px;
+    flex: 1;
+}
+
+.icono {
+    width: 200px;
+}
+
+.evento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height: auto;
+}
+
+.evento div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.eventoimg {
+    flex: 1;
+    text-align: center;
+}
+
+.eventoimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.div6 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    text-align: center;
+}
+
+.div6 p {
+    width: 70%;
+    height: auto;
+}
+
+/*! ------ Momentos --------*/
+
+.momentop1 {
+    display: flex;
+}
+
+.momento1 {
+    width: 50%;
+    height: 450px;
+    padding: 40px;
+}
+
+.momento2 {
+    width: 50%;
+    background-color: #d3ae58;
+    height: 450px;
+    padding: 40px;
+}
+
+.momentop2 {
+    display: flex;
+}
+
+.momento3 {
+    width: 50%;
+    background-color: #d3ae58;
+    height: 450px;
+    padding: 40px;
+}
+
+.momento4 {
+    width: 50%;
+    height: 450px;
+    background-color: white;
+    padding: 40px;
+}
+
+.momentop3 {
+    display: flex;
+}
+
+.momento5 {
+    background-color: #b3934c;
+    width: 60%;
+    height: 450px;
+    padding: 40px;
+}
+
+.momento52 {
+    width: 40%;
+
+}
+
+.momentoimg {
+    width: 70%;
+}
+
+.momentoimg2 {
+    width: 40%;
+}
+
+.linea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*! ------ Divisor y logos --------*/
+
+.linea img{
+    width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+    max-width: 100%;
+    height: auto;
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos img{
+    width: 70%;
+    margin: 25px;
+}
+
+
+/*! ------ footer --------*/
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.fecha p{
+    line-height:2px;
+    text-align: center;
+}
+
+.footer img{
+    width: 200px;
+}
+
+
+.iconos img{
+    width: 50px;
+    height: auto;
+    margin: 7px;
+}
