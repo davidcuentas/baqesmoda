@@ -24,13 +24,13 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end navegacion" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Barranquilla</a>
+                            <a class="nav-link active" aria-current="page" href="#barranquilla">Barranquilla</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Historia</a>
+                            <a class="nav-link active" href="#historia">Historia</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
@@ -38,13 +38,13 @@
                                 El evento
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">BAQ es moda</a></li>
-                                <li><a class="dropdown-item" href="#">Momentos</a></li>
-                                <li><a class="dropdown-item" href="#">Asistir al evento</a></li>
+                                <li><a class="dropdown-item" href="#baq">BAQ es moda</a></li>
+                                <li><a class="dropdown-item" href="#momentos">Momentos</a></li>
+                                <li><a class="dropdown-item" href="https://forms.gle/d9xgZKC2ifkaMQqQ6" target="_blank">Asistir al evento</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active">Contacto</a>
+                            <a class="nav-link active" href="#footer">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <section class="barranquilla">
+        <section id="barranquilla" class="barranquilla">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -111,7 +111,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="historia">
             <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
@@ -189,7 +189,7 @@
             </div>
         </section>
 
-        <section class="baq">
+        <section id="baq" class="baq">
             <div class="div1">
                 <p>Bajo el liderazgo de IXEL MODA, el respaldo de la Alcaldía Distrital de Barranquilla y la Universidad
                     Autónoma del Caribe, junto al sector gremial, empresarios e industriales, BARRANQUILLA prepara un
@@ -234,7 +234,7 @@
         </section>
 
 
-        <section>
+        <section id="momentos">
             <div class="momentop1">
                 <div class="momento1">
                     <h3>Primer momento</h3>
@@ -291,7 +291,11 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <div>
+        <img src="./img/divisor.png" alt="">
+    </div>
+
+    <footer id="footer" class="footer">
         <div class="fecha">
             <img src="./img/logobaq-05.jpg" alt="BAQ es Moda">
             <p>NOVIEMBRE · 08 · 2023</p>
@@ -300,11 +304,11 @@
         <div>
             <p>Menu</p>
             <ul>
-                <li><a href="">Barranquilla</a></li>
-                <li><a href="">Historia</a></li>
-                <li><a href="">BAQ es moda</a></li>
-                <li><a href="">Momentos</a></li>
-                <li><a href="">Asistir al evento</a></li>
+                <li><a href="#barranquilla">Barranquilla</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#baq">BAQ es moda</a></li>
+                <li><a href="#momentos">Momentos</a></li>
+                <li><a href="https://forms.gle/d9xgZKC2ifkaMQqQ6" target="_blank">Asistir al evento</a></li>
             </ul>
         </div>
 
@@ -321,7 +325,7 @@
 
         <div class="iconos">
             <p>Redes:</p>
-            <a href=""> <img src="./img/redes-06.png" alt=""></a>
+            <a href="https://www.instagram.com/baqesmoda7237/" target="_blank"> <img src="./img/redes-06.png" alt=""></a>
             <a href=""> <img src="./img/redes-07.png" alt=""></a>
             <a href=""> <img src="./img/redes-08.png" alt=""></a>
         </div>

@@ -9,10 +9,17 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 li {
     list-style-type: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    color: black;
 }
 
 /* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap"); */
@@ -42,6 +49,14 @@ p{
     font-family:sans-serif;
 
 }
+
+.navegacion ul li{
+    margin: 5px;
+    font-family: "fuentebaq";
+    font-size: 18px
+}
+
+
 /*! ------ Header --------*/
 
 .hero {
@@ -195,6 +210,7 @@ p{
     width: 50%;
     height: 450px;
     padding: 40px;
+    background-color: #F3F1E8;
 }
 
 .momento2 {
@@ -218,7 +234,7 @@ p{
 .momento4 {
     width: 50%;
     height: 450px;
-    background-color: white;
+    background-color: #F3F1E8;
     padding: 40px;
 }
 
@@ -243,7 +259,12 @@ p{
 }
 
 .momentoimg2 {
-    width: 40%;
+    width: 50%;
+}
+
+.momentoimg2 {
+    width: 100%;
+    height: 450px;
 }
 
 .linea{
@@ -284,15 +305,20 @@ p{
     
 }
 
+.footer div ul li a{
+    color: black;
+    text-decoration: none;
+}
+
 .fecha p{
     line-height:2px;
     text-align: center;
+    font-weight: 600;
 }
 
 .footer img{
     width: 200px;
 }
-
 
 .iconos img{
     width: 50px;
