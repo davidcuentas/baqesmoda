@@ -56,6 +56,10 @@ p{
     font-size: 18px
 }
 
+.navegacion ul li a:hover{
+    color: #b3934c;
+}
+
 
 /*! ------ Header --------*/
 
@@ -93,7 +97,7 @@ p{
 .textoBarranquilla {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 25%;
     text-align: left;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
@@ -110,7 +114,7 @@ p{
 .textoHistoria {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 75%;
     text-align: right;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
@@ -310,6 +314,10 @@ p{
     text-decoration: none;
 }
 
+.footer div ul li a:hover{
+    color:#b3934c;
+}
+
 .fecha p{
     line-height:2px;
     text-align: center;
@@ -324,4 +332,117 @@ p{
     width: 50px;
     height: auto;
     margin: 7px;
+}
+
+
+/*! ------ Media Q --------*/
+
+@media screen and (max-width: 2000px) {
+
+    .barranquilla{
+        display: block;
+    }
+
+    .barranquillapeq{
+        display: none;
+    }
+
+    .historia{
+        display: block;
+    }
+
+    .historiapeq{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .barranquilla{
+        display: none;
+    }
+
+    .barranquillapeq{
+        display: block;
+    }
+
+    .historia{
+        display: none;
+    }
+
+    .historiapeq{
+        display: block;
+    }
+
+    .textoBarranquilla {
+        top: 30%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        padding: 3px;
+        width: 600px;
+    }
+    
+    .textoHistoria {
+        top: 27%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        padding: 3px;
+        width: 600px;
+    }
+
+    .diviconos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .evento div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div6{
+        margin: 45px;
+    }
+
+    .div1{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .textoHistoria {
+        width: 450px;
+    }
+
+    .textoBarranquilla {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .textoHistoria {
+        width: 390px;
+        font-size: 14px;
+    }
+
+    .textoBarranquilla {
+        width: 390px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .textoHistoria {
+        width: 350px;
+        font-size: 11px;
+    }
+
+    .textoBarranquilla {
+        width: 350px;
+        font-size: 11px;
+    }
 }
