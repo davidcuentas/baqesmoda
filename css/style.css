@@ -53,13 +53,21 @@ p{
 .navegacion ul li{
     margin: 5px;
     font-family: "fuentebaq";
-    font-size: 18px
+    font-size: 18px;
+    
 }
 
 .navegacion ul li a:hover{
     color: #b3934c;
 }
 
+.fijada{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    background-color: #F3F1E8;
+    z-index: 2;
+}
 
 /*! ------ Header --------*/
 
@@ -281,10 +289,12 @@ p{
 
 /*! ------ Divisor y logos --------*/
 
-.linea img{
-    width: auto; /* Ajusta el ancho de la imagen según sea necesario */
-    max-width: 100%;
-    height: auto;
+.divisor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: hidden;
 }
 
 .logos{
@@ -329,11 +339,15 @@ p{
 }
 
 .iconos img{
-    width: 50px;
+    width: 35px;
     height: auto;
     margin: 7px;
 }
 
+.linea{
+    width: 100%;
+    height: auto;
+}
 
 /*! ------ Media Q --------*/
 
@@ -429,6 +443,10 @@ p{
         font-size: 14px;
     }
 
+    .logoprincipal{
+        width: 250px;
+    }
+
     .textoBarranquilla {
         width: 390px;
         font-size: 14px;
@@ -439,10 +457,15 @@ p{
     .textoHistoria {
         width: 350px;
         font-size: 11px;
+    
     }
 
     .textoBarranquilla {
         width: 350px;
         font-size: 11px;
+    }
+
+    .logoprincipal{
+        width: 150px;
     }
 }
