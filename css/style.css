@@ -425,6 +425,15 @@ p{
     .div1{
         margin-top: 30px;
     }
+
+    .logos img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .MenuFotter{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -434,6 +443,15 @@ p{
 
     .textoBarranquilla {
         width: 450px;
+    }
+
+    .logos img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .MenuFotter{
+        display: none;
     }
 }
 
@@ -451,6 +469,19 @@ p{
         width: 390px;
         font-size: 14px;
     }
+
+    .logos img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .MenuFotter{
+        display: none;
+    }
+
+    .momento2 p{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -467,5 +498,18 @@ p{
 
     .logoprincipal{
         width: 150px;
+    }
+
+    .logos img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .MenuFotter{
+        display: none;
+    }
+
+    .momento2 p{
+        font-size: 11px;
     }
 }
