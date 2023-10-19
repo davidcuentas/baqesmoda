@@ -50,6 +50,11 @@ p{
 
 }
 
+.lineadorada{
+    background-color: #b3934c;
+    height: 10px;
+}
+
 .navegacion ul li{
     margin: 5px;
     font-family: "fuentebaq";
@@ -66,7 +71,7 @@ p{
     overflow: hidden;
     top: 0;
     background-color: #F3F1E8;
-    z-index: 2;
+    z-index: 4;
 }
 
 /*! ------ Header --------*/
@@ -236,6 +241,12 @@ p{
     display: flex;
 }
 
+.momento2 img{
+    width: 350px;
+    height: auto;
+
+}
+
 .momento3 {
     width: 50%;
     background-color: #d3ae58;
@@ -270,9 +281,9 @@ p{
     width: 70%;
 }
 
-.momentoimg2 {
+/* .momentoimg2 {
     width: 50%;
-}
+} */
 
 .momentoimg2 {
     width: 100%;
@@ -434,15 +445,34 @@ p{
     .MenuFotter{
         display: none;
     }
+
+    .momento5 {
+        width: 60%;
+        height: 300px;
+        padding: 40px;
+    }
+
+    .momento2 img{
+        width: 250px;
+        height: auto;
+    
+    }
+
+    .momentoimg2 {
+        width: 100%;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 690px) {
     .textoHistoria {
         width: 450px;
+        margin: 5px;
     }
 
     .textoBarranquilla {
         width: 450px;
+        margin: 5px;
     }
 
     .logos img{
@@ -453,12 +483,25 @@ p{
     .MenuFotter{
         display: none;
     }
+
+    .momento5 {
+        width: 60%;
+        height: 200px;
+        padding: 40px;
+    }
+
+    .momentoimg2 {
+        width: 100%;
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
     .textoHistoria {
         width: 390px;
         font-size: 14px;
+        margin: 5px;
     }
 
     .logoprincipal{
@@ -468,6 +511,7 @@ p{
     .textoBarranquilla {
         width: 390px;
         font-size: 14px;
+        margin: 5px;
     }
 
     .logos img{
@@ -482,18 +526,26 @@ p{
     .momento2 p{
         font-size: 12px;
     }
+
+    .momento2 img{
+        width: 200px;
+        height: auto;
+    
+    }
+
 }
 
 @media screen and (max-width: 490px) {
     .textoHistoria {
         width: 350px;
         font-size: 11px;
-    
+        margin: 5px;
     }
 
     .textoBarranquilla {
         width: 350px;
         font-size: 11px;
+        margin: 5px;
     }
 
     .logoprincipal{
@@ -511,5 +563,22 @@ p{
 
     .momento2 p{
         font-size: 11px;
+    }
+
+    .momento2 img{
+        width: 100px;
+        height: auto;
+    
+    }
+
+    .momento5 {
+        width: 60%;
+        height: 150px;
+        padding: 40px;
+    }
+
+    .momentoimg2 {
+        width: 100%;
+        height: 150px;
     }
 }
